@@ -1,0 +1,47 @@
+/* Video grid container */
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 40px;
+}
+
+/* Video thumbnail */
+.thumbnail {
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+/* Video title */
+.video-title {
+    width: 220px;
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-family: Roboto, Arial;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+/* Video info grid (author + stats) */
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+
+/* Profile picture */
+.profile-pic {
+    width: 40px;
+    border-radius: 25px;
+}
+
+/* Video author and stats */
+.video-author,
+.video-stats {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+
+.video-author {
+    margin-bottom: 4px;
+}
