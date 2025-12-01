@@ -3,23 +3,104 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .left{
-    background-color: lightblue;
-    width: 150px;
+    display: flex;
 }
 
-.center{
-    background-color: lightpink;
+.menu{
+    height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.youtube-logo{
+    height: 20px;
+}
+
+.center{    
     flex: 1;
     margin-left: 70px;
     margin-right: 35px;
     max-width: 500px;
+    display: flex;
+    align-items: center;
+    
+}
+.search{
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(96,96,96);
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 5px rgba(0, 0, 0 ,0.05);
+    width: 0;
+}
+
+.search::placeholder{
+    font-family: roboto,arial;
+    font-size: 16px;
+    font-size: 16px;
+}
+
+.search-icon{
+    height: 40px;
+    width: 64px;
+    background-color: rgb(240,240,240);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(96,96,96);
+    margin-left: -1px;
+    margin-right: 10px;
     
 }
 
+.mic{
+    height: 40px;
+    width: 40px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(248, 248, 248);
+}
+
+.voice-search-icon{
+    height: 24px;
+    margin-top: 4px;
+    
+}
+
+.searchicon{
+    height: 25px;
+    margin-top: 4px;
+}
+
 .right{
-    background-color: lightblue;
-    width: 200px;
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    flex-shrink: 0;
+    
+}
+
+.upload-icon{
+    height: 24px;
+}
+
+.youtube-icon{
+    height: 24px;
+}
+
+.notification-icon{
+    height:24px;
+}
+
+.currentuser-icon{
+    height: 32px;
+    border-radius: 16px;
 }
