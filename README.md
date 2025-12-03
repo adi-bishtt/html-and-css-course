@@ -8,7 +8,6 @@ I am exploring HTML, CSS, and JavaScript to build clean and functional web exper
 ## 🛠️ Tech Stack
 - HTML
 - CSS
-- JavaScript
 
 ---
 
