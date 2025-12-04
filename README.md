@@ -1,7 +1,7 @@
 # Aditya Bisht - Web Development Learning Repo
 
 This repository contains my practice projects and learning exercises in web development.  
-I am exploring HTML, CSS, and JavaScript to build clean and functional web experiences.
+I am exploring HTML, CSS to build clean and functional web experiences.
 
 ---
 
